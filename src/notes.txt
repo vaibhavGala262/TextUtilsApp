@@ -1,0 +1,12 @@
+//why do we need mjs extension in react to import function or variable?
+The .mjs extension is used to indicate JavaScript files that should be treated as ES modules. This can be relevant in environments where both CommonJS and ES module systems are in use, such as Node.js. In the context of a React project, understanding when and why to use the .mjs extension can help manage module formats more effectively.
+
+
+CommonJS (CJS): This is the module system used by default in Node.js. Files use the .js extension, and modules are imported using require.
+ES Modules (ESM): This is the standardized module system in modern JavaScript (ECMAScript). Files typically use the .mjs extension, and modules are imported using import.
+
+.mjs explicitly tells node to treat as a  ES module
+
+
+// props 
+passing props variable must named same for fetching it
